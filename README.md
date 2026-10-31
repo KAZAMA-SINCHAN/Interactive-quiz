@@ -1,23 +1,51 @@
-# Utkarsh Bhaskar | Personal Portfolio
+# Code With AI Quiz
 
-Responsive portfolio with project search, light/dark mode and an API-powered chatbot.
-
-**Live website:** https://YOUR-VERCEL-URL.vercel.app
-
-## Technologies
-HTML, CSS, JavaScript, Vercel Serverless Functions, Gemini API
+A simple, interactive quiz application built using HTML, CSS, and JavaScript. It tests basic knowledge of AI, programming concepts, unit testing, code organization, and time complexity.
 
 ## Features
-- Sections: Home, About Me, Skills, Projects, Contact, AI Chatbot
-- Five project cards with tech tags, GitHub and live links
-- Search/filter by project name or technology
-- Light/dark mode (remembered between visits)
-- Chatbot answering from portfolio info; shows an error message if the API fails
-- API key stored in Vercel environment variables, not in the code
 
-## Setup
-1. Clone the repo and add your photo as `assets/profile.jpg`.
-2. Edit the project links in `script.js` and your email in `index.html`.
-3. Push to GitHub, import the repo in Vercel.
-4. In Vercel, Settings > Environment Variables, add `GEMINI_API_KEY`, then redeploy.
-5. Local testing: `npm i -g vercel` then `vercel dev`.
+- Five multiple-choice questions
+- Four options for each question
+- Automatic answer checking
+- Score calculation
+- Final score displayed after completing the quiz
+- Responsive, styled quiz interface with a navy-blue and gold theme
+- Interactive answer buttons with hover and keyboard-focus effects
+
+## Technologies Used
+
+- **HTML** — structures the quiz page.
+- **CSS** — styles the layout, colors, and answer buttons.
+- **JavaScript** — displays questions, checks answers, tracks the score, and shows the result.
+
+## Project Structure
+
+```text
+Code-With-AI-Quiz/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## How to Run
+
+1. Download or clone this repository.
+2. Keep `index.html`, `style.css`, and `script.js` in the same folder.
+3. Open `index.html` in a web browser.
+4. Select an answer to proceed through the questions.
+5. View your final score when the quiz is complete.
+
+No additional libraries or installation are required.
+
+## Learning Outcomes
+
+- Understanding how HTML, CSS, and JavaScript work together.
+- Using JavaScript arrays and objects to store quiz questions and answers.
+- Handling button clicks with event listeners.
+- Using conditional statements to check answers.
+- Tracking scores and displaying results dynamically.
+
+## Purpose
+
+This project was created for learning and practicing front-end web development concepts.
